@@ -431,7 +431,7 @@ const ContractScreen = () => {
                   name="college"
                   control={control}
                   defaultValue={info?.college}
-                  render={({ field: { onChange, value } }) => (
+                  render={({ field: { onChange, value } }: any) => (
                     <TextField
                       size="small"
                       value={value}
@@ -449,7 +449,7 @@ const ContractScreen = () => {
                   name="semester"
                   control={control}
                   defaultValue={info?.semester}
-                  render={({ field: { onChange, value } }) => (
+                  render={({ field: { onChange, value } }: any) => (
                     <TextField
                       value={value}
                       onChange={onChange}
@@ -467,7 +467,7 @@ const ContractScreen = () => {
                   name="workTime"
                   control={control}
                   defaultValue={info?.workTime}
-                  render={({ field: { onChange, value } }) => (
+                  render={({ field: { onChange, value } }: any) => (
                     <TextField
                       value={value}
                       onChange={onChange}
@@ -486,7 +486,7 @@ const ContractScreen = () => {
                   name="transportationVoucher"
                   control={control}
                   defaultValue={info?.transportationVoucher}
-                  render={({ field: { onChange, value } }) => (
+                  render={({ field: { onChange, value } }: any) => (
                     <TextField
                       value={value}
                       onChange={onChange}
@@ -504,7 +504,7 @@ const ContractScreen = () => {
                   name="providedEquipment"
                   control={control}
                   defaultValue={info?.providedEquipment}
-                  render={({ field: { onChange, value } }) => (
+                  render={({ field: { onChange, value } }: any) => (
                     <TextField
                       value={value}
                       onChange={onChange}

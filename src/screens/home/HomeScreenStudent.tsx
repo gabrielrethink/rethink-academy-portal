@@ -23,7 +23,7 @@ function HomeScreenStudent() {
     setUserAtt(data);
     const badgesData = await getUserBadges(user.email);
 
-    let newBadges = [];
+    let newBadges: any[] = [];
     for (const key in badgesData) {
       newBadges.push({ badgeNumber: badgesData[key].length, title: key });
     }
